@@ -3290,11 +3290,10 @@ ul {
   }
 
   .qr-panel {
-    order: -1;
     gap: 6px;
-    padding: 20px 20px 18px;
+    padding: 20px 20px 24px;
     border-inline-start: 0;
-    border-bottom: 1px solid #e6f5ee;
+    border-top: 1px solid #e6f5ee;
   }
 
   .qr-frame {
