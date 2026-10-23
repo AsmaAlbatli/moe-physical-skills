@@ -400,8 +400,50 @@ ul {
   background: linear-gradient(180deg, rgba(250, 254, 255, 0.92), rgba(245, 252, 249, 0.92));
 }
 
+.stage-nav-inner {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.stage-home {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+  gap: 6px;
+  padding: 8px 12px;
+  border: 1.5px solid var(--line);
+  border-radius: 12px;
+  background: #fff;
+  color: var(--green-deep);
+  font-size: 0.74rem;
+  font-weight: 800;
+  box-shadow: var(--shadow-xs);
+  transition: background 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+}
+
+.stage-home svg {
+  width: 17px;
+  height: 17px;
+  fill: currentColor;
+}
+
+.stage-home:hover {
+  transform: translateY(-1px);
+  border-color: #bfe6da;
+  background: var(--green-soft);
+}
+
+.stage-home:focus-visible {
+  outline: 3px solid rgba(15, 157, 118, 0.28);
+  outline-offset: 2px;
+}
+
 .stage-tabs {
   display: flex;
+  flex: 1;
+  min-width: 0;
   gap: 8px;
   padding-block: 10px;
   overflow-x: auto;
@@ -3307,6 +3349,18 @@ ul {
 
   .mobile-card-copy h3 {
     font-size: 1.45rem;
+  }
+}
+
+@media (max-width: 760px) {
+  .stage-home {
+    width: 38px;
+    height: 38px;
+    padding: 0;
+  }
+
+  .stage-home span {
+    display: none;
   }
 }
 
