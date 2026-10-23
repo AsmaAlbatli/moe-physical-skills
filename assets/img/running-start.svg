@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="t d">
+  <title id="t">طفل في وضع الاستعداد لبدء السباق</title>
+  <desc id="d">رسم توضيحي لطفل يتخذ وضع الاستعداد عند خط البداية في مضمار جري مع إشارة ضوئية خضراء.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e5f7ff"/><stop offset="1" stop-color="#d8fff0"/>
+    </linearGradient>
+    <linearGradient id="tr" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f49c77"/><stop offset="1" stop-color="#c95538"/>
+    </linearGradient>
+    <linearGradient id="js" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#42c6ff"/><stop offset="1" stop-color="#1376d6"/>
+    </linearGradient>
+    <filter id="ff" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="7" stdDeviation="8" flood-color="#1a4a70" flood-opacity=".2"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="600" rx="36" fill="url(#bg)"/>
+  <circle cx="128" cy="96" r="52" fill="#ffe17d" opacity=".85"/>
+  <circle cx="128" cy="96" r="72" fill="#ffe17d" opacity=".16"/>
+  <g fill="#ffffff" opacity=".9">
+    <path d="M560 96c9-22 44-22 53 0 21-8 41 7 37 27h-96c-4-13 2-23 6-27Z"/>
+    <path d="M380 128c6-15 30-15 37 0 14-5 28 5 25 19h-67c-3-9 2-15 5-19Z" opacity=".8"/>
+  </g>
+
+  <!-- مدرجات -->
+  <path d="M0 286c140-34 290-44 440-42 144 2 254 18 360 42v54H0Z" fill="#9ae4d0" opacity=".65"/>
+  <g stroke="#ffffff" stroke-width="4" opacity=".55">
+    <path d="M34 286v50M100 278v54M166 272v56M232 267v58M298 264v58M364 262v59M430 262v59M496 264v58M562 268v56M628 274v54M694 280v52M760 286v50"/>
+  </g>
+
+  <!-- المضمار -->
+  <path d="M0 350c210-22 590-22 800 0v250H0Z" fill="url(#tr)"/>
+  <g fill="#df6a49" opacity=".85">
+    <path d="M0 402c220-18 580-18 800 0v30c-230-16-570-16-800 0Z"/>
+    <path d="M0 482c230-16 570-16 800 0v30c-240-14-560-14-800 0Z"/>
+  </g>
+  <g fill="none" stroke="#fff2e6" stroke-width="5" opacity=".9">
+    <path d="M0 386c220-19 580-19 800 0"/>
+    <path d="M0 462c235-17 565-17 800 0"/>
+    <path d="M0 542c245-14 555-14 800 0"/>
+  </g>
+
+  <!-- خط البداية -->
+  <path d="M190 354h20v212h-20Z" fill="#ffffff" opacity=".95"/>
+  <g fill="#263645" opacity=".85">
+    <rect x="190" y="354" width="20" height="18"/><rect x="190" y="390" width="20" height="18"/>
+    <rect x="190" y="426" width="20" height="18"/><rect x="190" y="462" width="20" height="18"/>
+    <rect x="190" y="498" width="20" height="18"/><rect x="190" y="534" width="20" height="18"/>
+  </g>
+
+  <!-- إشارة البدء -->
+  <g filter="url(#ff)">
+    <rect x="610" y="168" width="104" height="150" rx="24" fill="#263645"/>
+    <circle cx="662" cy="208" r="20" fill="#ff5d6c" opacity=".35"/>
+    <circle cx="662" cy="252" r="20" fill="#ffce4a" opacity=".35"/>
+    <circle cx="662" cy="296" r="22" fill="#39d98a"/>
+    <circle cx="662" cy="296" r="34" fill="#39d98a" opacity=".2"/>
+    <rect x="654" y="320" width="16" height="34" rx="8" fill="#263645"/>
+    <rect x="634" y="354" width="56" height="12" rx="6" fill="#263645"/>
+  </g>
+
+  <!-- اللاعب -->
+  <ellipse cx="424" cy="506" rx="156" ry="20" fill="#7a2f22" opacity=".22"/>
+
+  <!-- ساق خلفية -->
+  <path d="M424 380c-50 14-82 34-98 66" fill="none" stroke="#f1bd90" stroke-width="33" stroke-linecap="round"/>
+  <path d="M330 438c-13 14-17 29-13 44" fill="none" stroke="#ffffff" stroke-width="28" stroke-linecap="round"/>
+  <path d="M304 468c11-3 24 0 35 8 5 10-1 19-13 22l-28 3c-9-1-13-9-11-17Z" fill="#ffd23f"/>
+
+  <!-- الجسم المنحني -->
+  <path d="M362 300c22-20 78-25 111-3 19 15 19 38 5 56-33 24-81 24-112 4-16-17-17-39-4-57Z" fill="url(#js)" transform="rotate(18 410 330)"/>
+  <path d="M369 311c17 8 36 11 56 8 21-4 38-12 51-24" fill="none" stroke="#a9e3ff" stroke-width="5" opacity=".9"/>
+  <text x="414" y="354" text-anchor="middle" font-family="Arial, sans-serif" font-size="46" font-weight="700" fill="#ffffff" transform="rotate(18 414 340)">3</text>
+
+  <!-- شورت -->
+  <path d="M389 396c24 8 51 7 73-2l14 38c-13 14-30 20-49 20-18 0-34-7-47-21Z" fill="#ffffff" transform="rotate(10 420 415)"/>
+
+  <!-- الساق الأمامية المنثنية -->
+  <path d="M410 431c-2 28-14 48-34 62" fill="none" stroke="#f1bd90" stroke-width="31" stroke-linecap="round"/>
+  <path d="M379 485c-14 8-22 19-23 31" fill="none" stroke="#ffffff" stroke-width="26" stroke-linecap="round"/>
+  <path d="M350 505c11-5 25-3 35 4 4 9-3 17-14 19l-26 1c-9-1-12-8-10-15Z" fill="#ffd23f"/>
+
+  <!-- الرأس -->
+  <path d="M425 279c-8-27 6-49 34-54 27-5 50 12 54 39 4 28-13 48-41 52-27 4-45-10-47-37Z" fill="#f1bd90" transform="rotate(16 466 282)"/>
+  <path d="M421 270c-8-25 7-44 33-49 24-4 43 7 49 26-12-1-25-6-37-16-2 14-17 29-45 39Z" fill="#26313c"/>
+  <path d="M500 262c12-8 25 0 23 13-1 8-6 14-13 16 2-10-2-19-10-29Z" fill="#26313c"/>
+  <circle cx="490" cy="273" r="4.5" fill="#25313d"/>
+  <path d="M488 293c6 5 13 4 18-1" fill="none" stroke="#b46b4b" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="508" cy="286" r="7" fill="#ee9d83" opacity=".4"/>
+  <path d="M411 288c-9 0-13 8-10 15 2 6 8 9 14 8" fill="#f1bd90"/>
+
+  <!-- الذراعان على خط البداية -->
+  <path d="M468 340c24 26 33 51 32 78" fill="none" stroke="#f1bd90" stroke-width="23" stroke-linecap="round"/>
+  <circle cx="500" cy="424" r="13" fill="#f1bd90"/>
+  <path d="M445 348c12 32 12 58 4 80" fill="none" stroke="#e7a878" stroke-width="22" stroke-linecap="round" opacity=".95"/>
+  <circle cx="449" cy="434" r="12" fill="#e7a878"/>
+
+  <!-- أقماع جانبية -->
+  <g filter="url(#ff)" opacity=".9">
+    <path d="M718 444l24 0 9 48h-42Z" fill="#ff8b3d"/>
+    <rect x="702" y="490" width="56" height="11" rx="5" fill="#e56d22"/>
+  </g>
+
+  <g fill="#ffffff" opacity=".95">
+    <path d="M270 192l4 11 11 4-11 4-4 11-4-11-11-4 11-4Z"/>
+    <path d="M580 410l3 8 8 3-8 3-3 8-3-8-8-3 8-3Z"/>
+  </g>
+</svg>

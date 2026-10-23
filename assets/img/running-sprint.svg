@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="t d">
+  <title id="t">طفل يعدو بسرعة في مضمار الجري</title>
+  <desc id="d">رسم توضيحي لطفل بقميص أزرق يحمل الرقم سبعة يركض في مضمار جري أحمر تحت سماء صافية.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dff5ff"/><stop offset="1" stop-color="#eafff8"/>
+    </linearGradient>
+    <linearGradient id="track" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f08a63"/><stop offset="1" stop-color="#c95538"/>
+    </linearGradient>
+    <linearGradient id="jersey" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3ab7ff"/><stop offset="1" stop-color="#1373d8"/>
+    </linearGradient>
+    <filter id="sh" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="7" stdDeviation="9" flood-color="#153a60" flood-opacity=".2"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="600" rx="36" fill="url(#sky)"/>
+  <circle cx="688" cy="92" r="50" fill="#ffdf6e" opacity=".9"/>
+  <circle cx="688" cy="92" r="74" fill="#ffdf6e" opacity=".18"/>
+  <g fill="#ffffff" opacity=".92">
+    <path d="M114 104c10-24 47-24 57 0 22-9 44 8 39 30H108c-5-14 2-25 6-30Z"/>
+    <path d="M330 68c7-16 32-16 39 0 15-6 30 6 27 20h-72c-3-9 2-16 6-20Z" opacity=".8"/>
+  </g>
+
+  <!-- مبانٍ وملعب بعيد -->
+  <g fill="#b9e9dc" opacity=".8">
+    <rect x="30" y="246" width="52" height="96" rx="6"/><rect x="92" y="264" width="40" height="78" rx="5"/>
+    <rect x="142" y="230" width="62" height="112" rx="6"/><rect x="214" y="270" width="38" height="72" rx="5"/>
+    <rect x="590" y="238" width="46" height="104" rx="6"/><rect x="646" y="260" width="60" height="82" rx="6"/>
+    <rect x="716" y="246" width="44" height="96" rx="6"/>
+  </g>
+  <g fill="#ffffff" opacity=".7">
+    <rect x="42" y="258" width="12" height="16" rx="3"/><rect x="62" y="258" width="12" height="16" rx="3"/>
+    <rect x="152" y="244" width="14" height="18" rx="3"/><rect x="176" y="244" width="14" height="18" rx="3"/>
+    <rect x="602" y="250" width="12" height="16" rx="3"/><rect x="658" y="272" width="14" height="16" rx="3"/>
+  </g>
+
+  <!-- المدرجات -->
+  <path d="M0 314c120-26 250-34 400-34s280 8 400 34v40H0Z" fill="#9fe6d0" opacity=".75"/>
+  <g stroke="#ffffff" stroke-width="4" opacity=".55">
+    <path d="M22 318v34M74 312v38M126 306v41M178 302v43M230 298v44M282 295v45M334 293v46M386 292v46M438 293v46M490 295v45M542 298v44M594 302v43M646 306v41M698 312v38M750 318v34"/>
+  </g>
+
+  <!-- المضمار -->
+  <path d="M0 348c200-18 600-18 800 0v252H0Z" fill="url(#track)"/>
+  <g fill="#e26e4c">
+    <path d="M0 386c220-16 580-16 800 0v25c-230-14-570-14-800 0Z"/>
+    <path d="M0 458c230-14 570-14 800 0v25c-240-12-560-12-800 0Z"/>
+    <path d="M0 530c240-12 560-12 800 0v24c-250-10-550-10-800 0Z"/>
+  </g>
+  <g fill="none" stroke="#fff3e8" stroke-width="5" opacity=".9">
+    <path d="M0 372c210-17 590-17 800 0"/>
+    <path d="M0 432c225-15 575-15 800 0"/>
+    <path d="M0 492c240-13 560-13 800 0"/>
+    <path d="M0 552c250-11 550-11 800 0"/>
+  </g>
+  <g fill="#ffffff" opacity=".55" font-family="Arial, sans-serif" font-size="26" font-weight="700">
+    <text x="66" y="414">1</text><text x="66" y="474">2</text><text x="66" y="534">3</text><text x="66" y="592">4</text>
+  </g>
+
+  <!-- خط النهاية -->
+  <g opacity=".95">
+    <path d="M744 356h56v240h-56Z" fill="#ffffff"/>
+    <g fill="#1e3446">
+      <rect x="744" y="356" width="14" height="20"/><rect x="772" y="356" width="14" height="20"/>
+      <rect x="758" y="376" width="14" height="20"/><rect x="786" y="376" width="14" height="20"/>
+      <rect x="744" y="396" width="14" height="20"/><rect x="772" y="396" width="14" height="20"/>
+      <rect x="758" y="416" width="14" height="20"/><rect x="786" y="416" width="14" height="20"/>
+      <rect x="744" y="436" width="14" height="20"/><rect x="772" y="436" width="14" height="20"/>
+      <rect x="758" y="456" width="14" height="20"/><rect x="786" y="456" width="14" height="20"/>
+      <rect x="744" y="476" width="14" height="20"/><rect x="772" y="476" width="14" height="20"/>
+      <rect x="758" y="496" width="14" height="20"/><rect x="786" y="496" width="14" height="20"/>
+      <rect x="744" y="516" width="14" height="20"/><rect x="772" y="516" width="14" height="20"/>
+      <rect x="758" y="536" width="14" height="20"/><rect x="786" y="536" width="14" height="20"/>
+      <rect x="744" y="556" width="14" height="20"/><rect x="772" y="556" width="14" height="20"/>
+    </g>
+  </g>
+
+  <!-- خطوط السرعة -->
+  <g stroke="#ffffff" stroke-width="7" stroke-linecap="round" opacity=".7">
+    <path d="M116 250h78"/><path d="M82 282h54"/><path d="M190 220h44"/>
+  </g>
+
+  <!-- العداء -->
+  <ellipse cx="414" cy="530" rx="128" ry="18" fill="#7a2f22" opacity=".25"/>
+
+  <!-- الذراع الخلفية -->
+  <path d="M331 292c-38 3-63 21-78 48" fill="none" stroke="#e7a878" stroke-width="24" stroke-linecap="round"/>
+  <circle cx="248" cy="347" r="13" fill="#e7a878"/>
+
+  <!-- الساق الخلفية -->
+  <path d="M383 410c-39 18-64 40-78 70" fill="none" stroke="#f1bd90" stroke-width="31" stroke-linecap="round"/>
+  <path d="M307 476c-20 5-35 15-44 29" fill="none" stroke="#ffffff" stroke-width="27" stroke-linecap="round"/>
+  <path d="M252 498c13-7 31-8 45-4l4 15c-10 11-26 13-42 10-9-2-12-12-7-21Z" fill="#ffd23f"/>
+
+  <!-- الجسم -->
+  <path d="M330 280c18-15 68-15 88 1 15 27 18 62 8 96-26 17-63 17-90 2-12-32-16-69-6-99Z" fill="url(#jersey)" transform="rotate(-8 380 330)"/>
+  <path d="M337 283c13 8 28 11 46 9 17-2 29-8 40-17" fill="none" stroke="#a9e0ff" stroke-width="5" opacity=".9"/>
+  <text x="382" y="358" text-anchor="middle" font-family="Arial, sans-serif" font-size="52" font-weight="700" fill="#ffffff" transform="rotate(-8 382 340)">7</text>
+
+  <!-- شورت -->
+  <path d="M336 388c24 10 56 10 80 1l8 42c-14 12-29 16-46 16-18 0-35-5-49-17Z" fill="#ffffff" transform="rotate(-5 378 412)"/>
+  <path d="M380 404v40" stroke="#d5e5ef" stroke-width="4"/>
+
+  <!-- الساق الأمامية -->
+  <path d="M407 422c25-31 50-48 80-58" fill="none" stroke="#f1bd90" stroke-width="30" stroke-linecap="round"/>
+  <path d="M478 367c12-9 24-15 39-19" fill="none" stroke="#ffffff" stroke-width="26" stroke-linecap="round"/>
+  <path d="M506 342c15-3 28 3 34 14 4 10-4 19-16 20l-34 1c-8-1-11-8-8-15Z" fill="#ffd23f"/>
+
+  <!-- الرأس -->
+  <path d="M370 244c6-30 28-46 55-41 28 5 43 28 37 55-6 29-29 44-56 38-27-5-41-26-36-52Z" fill="#f1bd90" transform="rotate(8 400 250)"/>
+  <path d="M368 235c-5-27 12-45 39-48 24-2 42 10 47 31-10-2-24-7-36-18-5 13-22 28-50 35Z" fill="#26313c"/>
+  <path d="M443 237c13-8 27 0 25 14-1 9-7 15-14 17 1-11-3-21-11-31Z" fill="#26313c"/>
+  <circle cx="438" cy="250" r="4.5" fill="#25313d"/>
+  <path d="M437 271c6 5 13 5 19 0" fill="none" stroke="#b46b4b" stroke-width="4" stroke-linecap="round"/>
+  <path d="M358 256c-9 1-12 9-8 16 2 6 8 8 13 7" fill="#f1bd90"/>
+  <path d="M429 289v16" stroke="#f1bd90" stroke-width="23"/>
+
+  <!-- الذراع الأمامية -->
+  <path d="M410 300c26 4 46 18 57 39" fill="none" stroke="#f1bd90" stroke-width="23" stroke-linecap="round"/>
+  <circle cx="471" cy="344" r="12" fill="#f1bd90"/>
+
+  <!-- ساعة الإيقاف -->
+  <g filter="url(#sh)">
+    <circle cx="658" cy="208" r="48" fill="#ffffff"/>
+    <circle cx="658" cy="208" r="38" fill="#ffd23f"/>
+    <path d="M658 184v26l17 11" fill="none" stroke="#273645" stroke-width="7" stroke-linecap="round"/>
+    <rect x="649" y="150" width="18" height="12" rx="5" fill="#273645"/>
+  </g>
+  <g fill="#ffffff" opacity=".95">
+    <path d="M540 178l4 11 11 4-11 4-4 11-4-11-11-4 11-4Z"/>
+    <path d="M210 390l3 8 8 3-8 3-3 8-3-8-8-3 8-3Z"/>
+  </g>
+</svg>

@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="t d">
+  <title id="t">طفل يقفز الوثب الطويل فوق حفرة الرمل</title>
+  <desc id="d">رسم توضيحي لطفل يرتدي قميصًا بنفسجيًا في مرحلة الطيران أثناء الوثب الطويل فوق حفرة رمل على مضمار ألعاب قوى.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f1eaff"/><stop offset="1" stop-color="#e4fff8"/>
+    </linearGradient>
+    <linearGradient id="run" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b89df0"/><stop offset="1" stop-color="#7c5bd6"/>
+    </linearGradient>
+    <linearGradient id="sand" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffe3a8"/><stop offset="1" stop-color="#e8b86a"/>
+    </linearGradient>
+    <linearGradient id="shirt" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#a78bfa"/><stop offset="1" stop-color="#6d3fd1"/>
+    </linearGradient>
+    <filter id="ds" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="9" stdDeviation="10" flood-color="#442a86" flood-opacity=".2"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="600" rx="36" fill="url(#sky)"/>
+  <circle cx="676" cy="104" r="54" fill="#ffd86b" opacity=".85"/>
+  <circle cx="676" cy="104" r="78" fill="#ffd86b" opacity=".15"/>
+  <g fill="#ffffff" opacity=".88">
+    <path d="M86 102c10-24 47-24 57 0 22-9 45 8 40 30H80c-5-14 2-25 6-30Z"/>
+    <path d="M318 62c7-16 32-16 39 0 15-6 30 6 27 20h-72c-3-9 2-16 6-20Z" opacity=".8"/>
+  </g>
+
+  <!-- مدرجات -->
+  <path d="M0 300c150-32 300-42 430-40 140 2 250 16 370 40v48H0Z" fill="#b9a7ec" opacity=".65"/>
+  <g stroke="#ffffff" stroke-width="4" opacity=".5">
+    <path d="M24 304v44M82 298v48M140 293v50M198 289v52M256 286v53M314 284v54M372 283v54M430 283v54M488 285v53M546 288v52M604 293v50M662 298v48M720 304v44"/>
+  </g>
+
+  <!-- المضمار -->
+  <path d="M0 352c210-22 590-22 800 0v250H0Z" fill="url(#run)"/>
+  <path d="M0 448c230-18 570-18 800 0v22c-240-16-560-16-800 0Z" fill="#6d4bc9" opacity=".35"/>
+  <g fill="none" stroke="#f5eeff" stroke-width="5" opacity=".65">
+    <path d="M0 386c220-18 580-18 800 0"/>
+    <path d="M0 506c240-15 560-15 800 0"/>
+  </g>
+
+  <!-- حفرة الرمل -->
+  <path d="M438 382c106-12 252-12 362 0l18 162H424Z" fill="url(#sand)"/>
+  <path d="M462 400c90-8 210-8 300 0" fill="none" stroke="#fff1c9" stroke-width="8" opacity=".8"/>
+  <g fill="#d9a45a" opacity=".65">
+    <circle cx="510" cy="446" r="5"/><circle cx="590" cy="486" r="4"/><circle cx="670" cy="440" r="6"/>
+    <circle cx="730" cy="500" r="5"/><circle cx="548" cy="520" r="4"/><circle cx="642" cy="546" r="5"/>
+  </g>
+
+  <!-- لوح الارتقاء -->
+  <path d="M390 370h72v132h-72Z" fill="#ffcf4d"/>
+  <path d="M398 382h56v108h-56Z" fill="#f2ad2e" opacity=".55"/>
+  <path d="M390 370h72v14h-72Z" fill="#ffffff" opacity=".8"/>
+
+  <!-- علامات القياس -->
+  <g stroke="#ffffff" stroke-width="5" stroke-linecap="round" opacity=".9">
+    <path d="M512 394v22M566 394v22M620 394v22M674 394v22M728 394v22"/>
+  </g>
+  <g fill="#ffffff" opacity=".8" font-family="Arial, sans-serif" font-size="19" font-weight="700">
+    <text x="520" y="390">1</text><text x="574" y="390">2</text><text x="628" y="390">3</text><text x="682" y="390">4</text><text x="736" y="390">5</text>
+  </g>
+
+  <!-- الرياضي في الطيران -->
+  <ellipse cx="430" cy="540" rx="150" ry="18" fill="#4d2d8d" opacity=".18"/>
+  <path d="M248 326c50-37 113-54 180-52" fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round" stroke-dasharray="3 15" opacity=".8"/>
+
+  <!-- ساق خلفية -->
+  <path d="M396 356c-20 8-42 8-64 0" fill="none" stroke="#f0bd8f" stroke-width="31" stroke-linecap="round"/>
+  <path d="M338 356c-15 1-26 6-35 14" fill="none" stroke="#ffffff" stroke-width="26" stroke-linecap="round"/>
+  <path d="M303 360c-10 8-12 17-8 26 11 6 23 5 34-2l7-14c-5-8-18-12-33-10Z" fill="#ffce4a"/>
+
+  <!-- الجسم المائل -->
+  <path d="M350 282c24-17 73-17 96 2 15 24 9 54-7 74-30 13-63 10-87-6-10-24-11-48-2-70Z" fill="url(#shirt)" transform="rotate(-20 398 320)"/>
+  <path d="M357 289c15 8 32 11 51 8 17-3 30-10 41-19" fill="none" stroke="#d9c9ff" stroke-width="5" opacity=".9"/>
+  <text x="401" y="337" text-anchor="middle" font-family="Arial, sans-serif" font-size="46" font-weight="700" fill="#ffffff" transform="rotate(-20 401 325)">5</text>
+
+  <!-- شورت -->
+  <path d="M354 378c24 8 53 7 76-3l12 38c-13 12-29 17-47 17-18 0-34-6-47-17Z" fill="#ffffff" transform="rotate(-12 395 398)"/>
+
+  <!-- ساق أمامية مثنية -->
+  <path d="M383 414c12 18 20 36 21 55" fill="none" stroke="#f0bd8f" stroke-width="30" stroke-linecap="round"/>
+  <path d="M402 464c6 12 16 20 30 23" fill="none" stroke="#ffffff" stroke-width="26" stroke-linecap="round"/>
+  <path d="M424 480c13 1 25 8 30 18 2 9-7 16-18 14l-29-6c-8-3-9-11-5-17Z" fill="#ffce4a"/>
+
+  <!-- الرأس -->
+  <path d="M331 300c-7-25 8-46 34-50 27-5 49 12 52 38 4 27-13 47-40 50-27 4-43-12-46-38Z" fill="#f0bd8f" transform="rotate(-14 372 300)"/>
+  <path d="M326 291c-6-24 9-42 34-46 23-3 41 8 46 27-12-1-24-5-36-15-2 14-17 28-44 34Z" fill="#2b303d"/>
+  <path d="M400 284c12-7 24 1 22 14-1 8-6 13-12 15 1-10-2-19-10-29Z" fill="#2b303d"/>
+  <circle cx="392" cy="295" r="4.5" fill="#25313d"/>
+  <path d="M391 315c6 5 13 4 18-1" fill="none" stroke="#b46b4b" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="410" cy="307" r="7" fill="#ee9d83" opacity=".4"/>
+  <path d="M321 307c-9-1-13 7-10 14 2 6 7 9 13 8" fill="#f0bd8f"/>
+
+  <!-- الذراعان ممدودتان -->
+  <path d="M354 300c-10-25-9-48 3-68" fill="none" stroke="#f0bd8f" stroke-width="22" stroke-linecap="round"/>
+  <circle cx="358" cy="224" r="12" fill="#f0bd8f"/>
+  <path d="M400 290c18-19 29-40 33-62" fill="none" stroke="#e8ad7f" stroke-width="21" stroke-linecap="round" opacity=".95"/>
+  <circle cx="435" cy="219" r="11" fill="#e8ad7f"/>
+
+  <!-- نجوم -->
+  <g fill="#ffe17d">
+    <path d="M544 194l5 13 13 5-13 5-5 13-5-13-13-5 13-5Z"/>
+    <path d="M206 224l4 10 10 4-10 4-4 10-4-10-10-4 10-4Z"/>
+    <path d="M702 260l3 8 8 3-8 3-3 8-3-8-8-3 8-3Z" opacity=".9"/>
+  </g>
+  <g fill="#ffffff" opacity=".75">
+    <circle cx="608" cy="146" r="5"/><circle cx="250" cy="152" r="4"/><circle cx="740" cy="208" r="4"/>
+  </g>
+</svg>
